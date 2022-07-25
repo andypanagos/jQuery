@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <script>
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div>\
+                        <p>Red Sox are terrible</p>\
+                    </div>\
+                </body>\""
+            );
+            $( "p" ).hide( 500 );
+            $( "div.hidden" ).show( 1250 );
+        });
+    </script>
+</html>
